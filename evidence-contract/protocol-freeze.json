@@ -1,0 +1,21 @@
+{
+  "schema": "vfa.evidence-study.protocol-freeze.v1",
+  "protocol_frozen_at_utc": "2026-11-07T03:47:36.441268+00:00",
+  "control_count": 7,
+  "matrix_row_count": 86,
+  "private_source_sha256": {
+    "protocol": "eef6c9d42a17c8663b4dcd4c1c47f09fc5ca689546ce84f9769ddc2f10c76b9e",
+    "matrix": "69783cedb7bde4ed4a0f623057746f8ea73fd0d264fc6282fa26e3e573f429c4",
+    "fixture_manifest": "abcf96dd5e2e0085a93a25da66f4ad759802197f682022634c57fc2121e1e064"
+  },
+  "checker_code_sha256": {
+    "vfa/target.py": "558f525cd72f5a6d8ca462f72b988bc9b5b47fb8941a3ecdca45afbd560d0d12",
+    "vfa/coordinator.py": "86b52f09c5a84b7d6a8a5fb9384c729d1820707d8f26914da5cfb0937c9cca7c",
+    "vfa/citations.py": "44801825c17270b8cbb83fe4474a4e28625f115b9764772c0d292a00d2624509",
+    "vfa/native_route_map.py": "3382f28e6e5be9282d3b466bcd16e6a65ba8ab5951519576b961cfe19846ae94",
+    "vfa/managed_route_map.py": "b83190055c509a3a4278457baef14bac7eae69f769e6899d0817e362b218ce6d",
+    "vfa/dex_locations.py": "2b06395b5353505cb7872f8e5d2e83e794023036a7092abb0fa026d2d4ce95fb"
+  },
+  "vfa_python_tree_sha256": "f2c0eff005dc52b2251c207a78137ddbeaa293c286ec58686facebcf48e2a6e6",
+  "note": "Source hashes identify retained private inputs; public case IDs use the EC- prefix."
+}

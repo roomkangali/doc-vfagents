@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="715" viewBox="0 0 1800 715">
+<rect width="100%" height="100%" fill="white"/>
+<g transform="translate(0,-140)">
+<text x="70" y="202" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Candidate</text>
+<polyline points="300,195 1700,195" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="317" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Reviewer</text>
+<polyline points="300,310 1700,310" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="432" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Proof planner</text>
+<polyline points="300,425 1700,425" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="547" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Adjudicator</text>
+<polyline points="300,540 1700,540" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="662" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Decision / PoC</text>
+<polyline points="300,655 1700,655" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="777" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="start">Report writer</text>
+<polyline points="300,770 1700,770" fill="none" stroke="#cbd7df" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="300.0,155 300.0,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="300.0" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">0:00</text>
+<polyline points="533.3333333333334,155 533.3333333333334,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="533.3333333333334" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">1:00</text>
+<polyline points="766.6666666666667,155 766.6666666666667,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="766.6666666666667" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">2:00</text>
+<polyline points="1000.0,155 1000.0,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1000.0" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">3:00</text>
+<polyline points="1233.3333333333335,155 1233.3333333333335,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1233.3333333333335" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">4:00</text>
+<polyline points="1466.6666666666667,155 1466.6666666666667,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1466.6666666666667" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">5:00</text>
+<polyline points="1700.0,155 1700.0,800" fill="none" stroke="#e2e9ed" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1700.0" y="839" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">6:00</text>
+<text x="70" y="840" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Elapsed</text>
+<circle cx="300.0" cy="195" r="10" fill="#255e98"/>
+<text x="316.0" y="188" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">08:54:30.37  candidate recorded [849]</text>
+<polyline points="300.71742222222224,310 308.2571922222222,310" fill="none" stroke="#685695" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="308.2571922222222" y="297" width="726.9385549999998" height="26" rx="8" fill="#685695"/>
+<circle cx="300.71742222222224" cy="310" r="7" fill="#685695"/>
+<circle cx="1035.195747222222" cy="310" r="9" fill="#685695"/>
+<text x="1047.195747222222" y="288" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Reviewer result  08:57:39</text>
+<polyline points="300.7430772222222,425 307.01307444444444,425" fill="none" stroke="#24747a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="307.01307444444444" y="412" width="557.1702422222222" height="26" rx="8" fill="#24747a"/>
+<circle cx="300.7430772222222" cy="425" r="7" fill="#24747a"/>
+<circle cx="864.1833166666667" cy="425" r="9" fill="#24747a"/>
+<text x="876.1833166666667" y="403" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Proof planner result  08:56:55</text>
+<text x="315" y="274" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">handoffs 08:54:30.55 / .56; model starts 08:54:32.49 / .17</text>
+<rect x="1035.334008888889" y="527" width="261.4193983333332" height="26" rx="8" fill="#685695"/>
+<circle cx="1035.334008888889" cy="540" r="7" fill="#685695"/>
+<circle cx="1296.7534072222222" cy="540" r="9" fill="#685695"/>
+<text x="1050.334008888889" y="505" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">handoff after reviewer + planner terminal</text>
+<circle cx="1296.7704677777779" cy="655" r="10" fill="#255e98"/>
+<polyline points="1296.7704677777779,644 1296.7704677777779,601 1451.7704677777779,601" fill="none" stroke="#255e98" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1460.7704677777779" y="607" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">08:58:46.68  static_path [1797]</text>
+<circle cx="1297.1336705555555" cy="655" r="5" fill="#9b6417"/>
+<text x="1460.7704677777779" y="684" fill="#9b6417" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">08:58:46.77  written PoC export: not_run</text>
+<rect x="1298.5195305555553" y="757" width="375.9853338888893" height="26" rx="8" fill="#24747a"/>
+<circle cx="1674.5048644444446" cy="770" r="9" fill="#24747a"/>
+<text x="1306.5195305555553" y="737" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">writer result 09:00:23.81 [2037]</text>
+</g>
+</svg>

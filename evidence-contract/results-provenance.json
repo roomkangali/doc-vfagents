@@ -1,0 +1,30 @@
+{
+  "schema": "vfa.evidence-study.results-provenance.v1",
+  "protocol_source_sha256": "98db3c03b1cab9946d4bd65a14c682d9ce294869e05a5501bb803cbe6369fa6d",
+  "protocol_frozen_at_utc": "2026-11-07T03:47:36.441268+00:00",
+  "selected_run_index": 3,
+  "selected_run_started_at_utc": "2026-11-07T03:59:40.185353+00:00",
+  "selected_run_finished_at_utc": "2026-11-07T03:59:54.715952+00:00",
+  "private_raw_results_sha256": "8ebad548cca3c330af8bec1c0193f32a859af5edd3b6df4f0ceea4fba1d9e3ad",
+  "private_executed_runner_sha256": "6357260e995e82d4bdd9f9cc86b874e23728fdda00c426026ed03b12f93290ae",
+  "private_filtered_results_sha256": "84743f82199c0b2f65dbf44b0b00f2caff42e0e5433971d4b95686a37cdbcb7b",
+  "public_results_sha256": "20f985447e6cb5b2c5e9eaf78192e6838c73af04be0d42c9d962279966cecc13",
+  "public_fixture_summary_sha256": "c174ddb904bc9e1b2ec59f45395ed1a6620c8476ccf62b1159e01beafa23e759",
+  "selected_result_rows": 86,
+  "selected_result_counts": {
+    "accepted": 22,
+    "gap": 1,
+    "rejected": 63
+  },
+  "vfa_python_tree_sha256": "f2c0eff005dc52b2251c207a78137ddbeaa293c286ec58686facebcf48e2a6e6",
+  "excluded_from_projection": [
+    "local filesystem paths",
+    "raw checker messages",
+    "historical state and journal",
+    "Evidence blob contents",
+    "target bytes",
+    "provider transcripts",
+    "tracebacks"
+  ],
+  "public_replay_limit": "The selected checker replay requires retained attempt state, grants, Evidence blobs, the exact target bytes, and matching VFA code; the public files alone cannot rerun it."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "vfa.paper.sanitized-export-projection.v1",
+  "not_original_vfa_export": true,
+  "family": "pe",
+  "case_id": "case_08483b91e73d4786b54db397ffde6f65",
+  "attempt_id": "attempt_1c3a704f7c4a49779acb845ec1f4db81",
+  "export_revision": "9",
+  "selection_role": "primary",
+  "result_state": "complete",
+  "target_set_sha256": "b7b2be3ac4581c54d63dca4d827f4d91daa3736b7e071dae2777e3ac0c07e896",
+  "original_report_json_sha256": "0035824895b525a1f2f6777e80fea5aaf97c88323df65a1cfeceb2cd03334c69",
+  "complete_report_at": "2026-11-06T04:37:08.803711+00:00",
+  "partial_export_bound_at": "not recorded",
+  "finding_entries_in_author_audit": 12,
+  "author_path_groups": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07"
+  ],
+  "runtime_execution": "not_performed",
+  "poc_state": "not_run"
+}

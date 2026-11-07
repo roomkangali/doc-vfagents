@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="715" viewBox="0 0 1800 715">
+<rect width="100%" height="100%" fill="white"/>
+<g transform="translate(0,-132)">
+<rect x="70" y="158" width="310" height="132" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="90" y="192" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Frozen target</text>
+<text x="90" y="227" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Component hashes + scope</text>
+<text x="90" y="254" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Authorization and exclusions</text>
+<rect x="435" y="158" width="315" height="132" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="455" y="192" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Adapter operations</text>
+<text x="455" y="227" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Navigation or original read</text>
+<text x="455" y="254" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Granted per work item</text>
+<rect x="805" y="158" width="320" height="132" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="825" y="192" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Retained Evidence</text>
+<text x="825" y="227" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Target + work-item binding</text>
+<text x="825" y="254" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Envelope digest; original locus</text>
+<rect x="1180" y="158" width="550" height="132" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="1200" y="192" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Coordinator checks</text>
+<text x="1200" y="227" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Reverify target · grants · blob digest</text>
+<text x="1200" y="254" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Validate citations · static-path gate</text>
+<polyline points="380,224 425,224" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="425,224 413.47,230.00 413.47,218.00" fill="#536a78"/>
+<polyline points="750,224 795,224" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="795,224 783.47,230.00 783.47,218.00" fill="#536a78"/>
+<polyline points="1125,224 1170,224" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1170,224 1158.47,230.00 1158.47,218.00" fill="#536a78"/>
+<text x="70" y="346" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="start">ROLE WORK ITEMS</text>
+<rect x="70" y="385" width="220" height="116" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="90" y="419" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Mapper</text>
+<text x="90" y="454" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Map target and</text>
+<text x="90" y="481" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">bound leads</text>
+<rect x="340" y="385" width="220" height="116" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="360" y="419" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Investigator</text>
+<text x="360" y="454" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Inspect; submit</text>
+<text x="360" y="481" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">cited candidate</text>
+<rect x="610" y="385" width="235" height="116" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="630" y="419" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Candidate record</text>
+<text x="630" y="454" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Claim key + Evidence</text>
+<text x="630" y="481" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">No verdict yet</text>
+<rect x="900" y="340" width="245" height="116" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="920" y="374" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Reviewer</text>
+<text x="920" y="409" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Separate context</text>
+<text x="920" y="436" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Seek defeaters</text>
+<rect x="900" y="500" width="245" height="116" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="920" y="534" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Proof planner</text>
+<text x="920" y="569" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Reproducer + control</text>
+<text x="920" y="596" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Execution state kept</text>
+<rect x="1205" y="415" width="245" height="130" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="1225" y="449" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Adjudicator</text>
+<text x="1225" y="484" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">After both are terminal</text>
+<text x="1225" y="511" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Propose status; cite</text>
+<rect x="1500" y="415" width="230" height="130" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="1520" y="449" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Report writer</text>
+<text x="1520" y="484" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Canonical decision</text>
+<text x="1520" y="511" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Coverage + PoC state</text>
+<polyline points="290,443 330,443" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="330,443 318.47,449.00 318.47,437.00" fill="#183044"/>
+<polyline points="560,443 600,443" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="600,443 588.47,449.00 588.47,437.00" fill="#183044"/>
+<polyline points="845,425 870,425 870,398 890,398" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="890,398 878.47,404.00 878.47,392.00" fill="#183044"/>
+<polyline points="845,462 870,462 870,558 890,558" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="890,558 878.47,564.00 878.47,552.00" fill="#183044"/>
+<polyline points="1145,398 1172,398 1172,455 1195,455" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1195,455 1183.47,461.00 1183.47,449.00" fill="#183044"/>
+<polyline points="1145,558 1172,558 1172,505 1195,505" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1195,505 1183.47,511.00 1183.47,499.00" fill="#183044"/>
+<polyline points="1450,480 1490,480" fill="none" stroke="#183044" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1490,480 1478.47,486.00 1478.47,474.00" fill="#183044"/>
+<polyline points="965,290 965,315 475,315 475,375" fill="none" stroke="#24747a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7,7"/>
+<polygon points="475,375 469.00,363.47 481.00,363.47" fill="#24747a"/>
+<polyline points="965,315 1022,315 1022,330" fill="none" stroke="#24747a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7,7"/>
+<polygon points="1022,330 1016.00,318.47 1028.00,318.47" fill="#24747a"/>
+<text x="595" y="309" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Delivered, scoped references</text>
+<text x="70" y="679" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="start">CHECKED TRANSITIONS AND FAILURE RECORDS</text>
+<rect x="70" y="713" width="390" height="110" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="90" y="747" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">I1 · Target identity</text>
+<text x="90" y="782" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">EC-WASM-01 accepted; -02 rejected</text>
+<rect x="490" y="713" width="390" height="110" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="510" y="747" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">I2–I4 · Evidence admission</text>
+<text x="510" y="782" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Grant, blob, coordinate checked</text>
+<text x="510" y="809" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">EC-WASM-03–09</text>
+<rect x="910" y="713" width="390" height="110" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="930" y="747" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">I5 · Static-path gate</text>
+<text x="930" y="782" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">-10 accepted; -11 / -12 rejected</text>
+<text x="930" y="809" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Proof basis remains static_path</text>
+<rect x="1330" y="713" width="400" height="110" rx="15" fill="#fff5e5" stroke="#9b6417" stroke-width="2"/>
+<text x="1350" y="747" fill="#9b6417" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Recorded limits</text>
+<text x="1350" y="782" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Rejected / blocked / inconclusive</text>
+<text x="1350" y="809" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Coverage gap; PoC may be not_run</text>
+</g>
+</svg>

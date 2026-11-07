@@ -1,0 +1,50 @@
+{
+  "contract_case_ids": [
+    "EC-WASM-01",
+    "EC-WASM-02",
+    "EC-WASM-03",
+    "EC-WASM-04",
+    "EC-WASM-05",
+    "EC-WASM-06",
+    "EC-WASM-07",
+    "EC-WASM-08",
+    "EC-WASM-09",
+    "EC-WASM-10",
+    "EC-WASM-11",
+    "EC-WASM-12"
+  ],
+  "derived_from": {
+    "claim_audit": "43db4fb2086e33c45b10a3fdf75bbc1b980081fbd3326e2c4e9e26b6416a1739",
+    "contract_results": "84743f82199c0b2f65dbf44b0b00f2caff42e0e5433971d4b95686a37cdbcb7b",
+    "evidence_chain_full_artwork": "a08ee183d2ec27f090b46db3aec3a7b407b8d8aacc1dafdb15a50bdfbeb6383d",
+    "generator": "aef0f24342da142335055f9fbdbcc910db846d7f816d1aec18b9928f52bc5b75",
+    "timeline_full_artwork": "db8ea2fad673cb534d4cf6f2868374ed84d95b81e50650e2062fa9ec63ece59f",
+    "wasm_state": "42423d3f72852729aec76f00552234d3774b15a051f6b35611198eaa3bbc777b",
+    "workflow_candidates": "88a4f5dc05c67a12938b5a8d501aab45d21fa94ba11cb32c77a8a44cd2f359e1",
+    "workflow_matrix": "ce84857cab4ece7a997b4933f98ac8ed338a92dfae11b6639cc92ecf472a4caf"
+  },
+  "figures": {
+    "figure-1-architecture.svg": {
+      "png_sha256": "4a13e779f8d05c1b413566556c6ae5758a633e86354072dbe81aa8b23134f05b",
+      "sha256": "ac0a88124fbdb63d7f67667e0d040c8625e116e30c13d618e0c280b620fc26b7"
+    },
+    "figure-2-w01-timeline.svg": {
+      "png_sha256": "2d4e69f03fbd908899bdca9d87def689625654ad27e90f4a4c458fc5c1474ad2",
+      "sha256": "03481f8f95d56cd045dec0fa362e085d8b61b8b9304113021b5671f0a7755447"
+    },
+    "figure-3-evidence-chain.svg": {
+      "png_sha256": "f8a8d26850e50d03df7e05539ffacf3def1c56d2c32d6ba1d40c5c28c1493622",
+      "sha256": "cc3a7ca02c9a59f31ac33f63e60e63d78f5be9fc7e33f3c9170dafb0ef65f2d3"
+    }
+  },
+  "provenance_note": "Generated figures, not screenshots or runtime observations.",
+  "renderer": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org",
+  "schema": "vfa.paper.figures.v1",
+  "selected_paths": [
+    "source/F1/S01",
+    "wasm/F1/W01"
+  ],
+  "source_attempt": "attempt_5519bfd90ef44915b0c55cec63cdc65d",
+  "wasm_attempt": "attempt_b7c03e843a2e4fe4aff6b4d0427d9e3f",
+  "source_figure_manifest_sha256": "7e75042793fce77a0d9d5729c86a417bb7bfa6a30e8edff0466b2b8906b7daf8"
+}

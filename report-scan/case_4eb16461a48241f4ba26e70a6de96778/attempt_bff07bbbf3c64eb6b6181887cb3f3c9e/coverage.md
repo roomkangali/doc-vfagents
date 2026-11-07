@@ -1,0 +1,7 @@
+# Coverage and proof gaps
+
+Export state: **complete**. This projection includes only author-audited Finding rows, not the full VFA coverage ledger.
+
+- **F1** (`A02`): A scoped work item must invoke the bundle adapter before member-content evidence exists.; No Electron runtime or deep package adapter was used.; At intake, no discovery or validation had run; generic read-only navigation is available for scheduled investigation. Specialized adapters may add depth where applicable.; Bounded generic navigation only; no framework or vulnerability conclusion. Gap: bounded result incomplete; this case has not authorized automatic bounded local proof; Adjudicator did not propose confirmation.; Adjudicator did not propose a static confirmation.
+
+- **F2** (`A01`): A scoped work item must invoke the bundle adapter before member-content evidence exists.; No Electron runtime or deep package adapter was used.; At intake, no discovery or validation had run; generic read-only navigation is available for scheduled investigation. Specialized adapters may add depth where applicable.; Bounded generic navigation only; no framework or vulnerability conclusion. Gap: bounded result incomplete; path must be a bounded relative POSIX path; this case has not authorized automatic bounded local proof; No exact authored source fixture claim gate applies.; Static path lacks two distinct locations independently checked by review and adjudication.

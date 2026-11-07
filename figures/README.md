@@ -1,0 +1,3 @@
+# Figure provenance
+
+Figures 1–3 are generated illustrations, not screenshots or runtime observations. Figure 1 diagrams the implemented role flow and selected checker transitions; its `EC-` labels refer to public rows in the [Evidence-contract matrix](../evidence-contract/evidence-contract-cases.csv). Figure 2 reconstructs the W01 per-claim timeline from retained journal events. Figure 3 joins audited source S01 and host/WASM W01 coordinates to decisions and `not_run` PoC states. The [manifest](figure-manifest.json) records source-artwork and published-image hashes. Two separate [CLI screenshots](../screenshots/) illustrate a completed case; the remaining private captures are excluded. A passing static gate does not execute a PoC.

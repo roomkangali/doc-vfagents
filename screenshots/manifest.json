@@ -1,0 +1,28 @@
+{
+  "schema": "vfa.paper.selected-cli-captures.v1",
+  "provenance_note": "Current VFA UI displaying a saved completed case; not captured during the scan and not a runtime observation.",
+  "images": [
+    {
+      "file": "wasm-finding-review.png",
+      "caption": "Finding F1 with the static-path decision and reviewer counterevidence",
+      "case_id": "case_35ba4dd3e5e6435c9e07b0efbfa90ca1",
+      "attempt_export": "attempt_b7c03e843a2e4fe4aff6b4d0427d9e3f--r002",
+      "captured_at_utc": "2026-11-07T04:40:09+00:00",
+      "ui_display_version": "VFA v1.0.000",
+      "source_capture_sha256": "a4163160cd7759e927e5e21007d0d4d80ff738dd872749e4a3ec6794676f9926",
+      "published_sha256": "a4163160cd7759e927e5e21007d0d4d80ff738dd872749e4a3ec6794676f9926",
+      "modified_for_publication": false
+    },
+    {
+      "file": "wasm-poc-status.png",
+      "caption": "PoC view for Finding F1 with no executed reproducer",
+      "case_id": "case_35ba4dd3e5e6435c9e07b0efbfa90ca1",
+      "attempt_export": "attempt_b7c03e843a2e4fe4aff6b4d0427d9e3f--r002",
+      "captured_at_utc": "2026-11-07T04:40:21+00:00",
+      "ui_display_version": "VFA v1.0.000",
+      "source_capture_sha256": "915d5bd2e8e0f5de67d3fa66e953ce1818788393f1c4dd9995d99af175049a06",
+      "published_sha256": "915d5bd2e8e0f5de67d3fa66e953ce1818788393f1c4dd9995d99af175049a06",
+      "modified_for_publication": false
+    }
+  ]
+}

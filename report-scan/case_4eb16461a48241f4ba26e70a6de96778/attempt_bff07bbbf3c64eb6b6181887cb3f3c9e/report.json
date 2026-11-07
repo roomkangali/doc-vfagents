@@ -1,0 +1,21 @@
+{
+  "schema": "vfa.paper.sanitized-export-projection.v1",
+  "not_original_vfa_export": true,
+  "family": "asar",
+  "case_id": "case_4eb16461a48241f4ba26e70a6de96778",
+  "attempt_id": "attempt_bff07bbbf3c64eb6b6181887cb3f3c9e",
+  "export_revision": "1",
+  "selection_role": "complete companion",
+  "result_state": "complete",
+  "target_set_sha256": "ba7f931a11d019806bedc401a59c69cbeb1582c80c934260008155cf6a26d986",
+  "original_report_json_sha256": "28b7d95a0a36f3dbc00feecc38258af13ab3e8d0f0d0ddabc49bcf6572f90ba7",
+  "complete_report_at": "2026-11-05T15:56:59.201026+00:00",
+  "partial_export_bound_at": "not recorded",
+  "finding_entries_in_author_audit": 2,
+  "author_path_groups": [
+    "A01",
+    "A02"
+  ],
+  "runtime_execution": "not_performed",
+  "poc_state": "not_run"
+}

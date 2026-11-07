@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="780" viewBox="0 0 1800 780">
+<rect width="100%" height="100%" fill="white"/>
+<g transform="translate(0,-135)">
+<rect x="65" y="150" width="1670" height="365" rx="20" fill="white" stroke="#cbd7df" stroke-width="2"/>
+<text x="88" y="188" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="start">S01  ·  Gem Shop source tree</text>
+<text x="88" y="218" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Audit row: source / F1 / S01  ·  target-set digest 6f7f8209…  ·  VFA confirmed; author-supported static scope</text>
+<rect x="65" y="535" width="1670" height="365" rx="20" fill="white" stroke="#cbd7df" stroke-width="2"/>
+<text x="88" y="573" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="start">W01  ·  RIC host + WebAssembly</text>
+<text x="88" y="603" fill="#536a78" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Audit row: wasm / F1 / W01  ·  composition digest 4a050b5d…  ·  VFA confirmed; author-supported conditional path</text>
+<rect x="88" y="242" width="260" height="225" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="108" y="276" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Target</text>
+<text x="108" y="311" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Scoped source tree</text>
+<text x="108" y="338" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Identity: manifest hash</text>
+<text x="108" y="365" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">not a file digest</text>
+<rect x="380" y="242" width="400" height="225" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="400" y="276" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Original source spans</text>
+<text x="400" y="311" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E14  routes.rb:24</text>
+<text x="400" y="338" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E15  products_controller.rb:19–22</text>
+<text x="400" y="365" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E16  application_controller.rb:1</text>
+<rect x="812" y="242" width="335" height="225" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="832" y="276" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Claim + review</text>
+<text x="832" y="311" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">F1 / S01  search SQL path</text>
+<text x="832" y="338" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Reviewer: safe query is</text>
+<text x="832" y="365" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">commented out; scope limited</text>
+<rect x="1179" y="242" width="245" height="225" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="1199" y="276" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Canonical decision</text>
+<text x="1199" y="311" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">confirmed · static_path</text>
+<text x="1199" y="338" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">event [1411]</text>
+<text x="1199" y="365" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">audit: supported</text>
+<rect x="1456" y="242" width="256" height="225" rx="15" fill="#fff5e5" stroke="#9b6417" stroke-width="2"/>
+<text x="1476" y="276" fill="#9b6417" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Proof + Coverage</text>
+<text x="1476" y="311" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Written PoC: not_run</text>
+<text x="1476" y="338" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Runtime response unknown</text>
+<text x="1476" y="365" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">No exploit observed</text>
+<polyline points="353,355 370,355" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="370,355 358.47,361.00 358.47,349.00" fill="#536a78"/>
+<polyline points="785,355 802,355" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="802,355 790.47,361.00 790.47,349.00" fill="#536a78"/>
+<polyline points="1152,355 1169,355" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1169,355 1157.47,361.00 1157.47,349.00" fill="#536a78"/>
+<polyline points="1429,355 1446,355" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1446,355 1434.47,361.00 1434.47,349.00" fill="#536a78"/>
+<rect x="88" y="627" width="260" height="225" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="108" y="661" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Target set</text>
+<text x="108" y="696" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">server.js + vuln.js</text>
+<text x="108" y="723" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">+ vuln.wasm (23,073 B)</text>
+<text x="108" y="750" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">separate component hashes</text>
+<rect x="380" y="627" width="400" height="225" rx="15" fill="#eaf6f4" stroke="#24747a" stroke-width="2"/>
+<text x="400" y="661" fill="#24747a" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Original host + byte loci</text>
+<text x="400" y="696" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E2  server.js:43,46,47,50,51</text>
+<text x="400" y="723" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E3  offsets 1734,1779,1816,1835</text>
+<text x="400" y="750" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E7  offsets 1553,1569</text>
+<text x="400" y="777" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">E10–11  vuln.js:1333,1339,1069–70</text>
+<rect x="812" y="627" width="335" height="225" rx="15" fill="#f1eef9" stroke="#685695" stroke-width="2"/>
+<text x="832" y="661" fill="#685695" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Claim + review</text>
+<text x="832" y="696" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">F1 / W01  selector path</text>
+<text x="832" y="723" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Reviewer: initialization,</text>
+<text x="832" y="750" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">traps and n≥512 branch</text>
+<rect x="1179" y="627" width="245" height="225" rx="15" fill="#eaf3fb" stroke="#255e98" stroke-width="2"/>
+<text x="1199" y="661" fill="#255e98" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Canonical decision</text>
+<text x="1199" y="696" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">confirmed · static_path</text>
+<text x="1199" y="723" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">event [1797]</text>
+<text x="1199" y="750" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">audit: supported</text>
+<rect x="1456" y="627" width="256" height="225" rx="15" fill="#fff5e5" stroke="#9b6417" stroke-width="2"/>
+<text x="1476" y="661" fill="#9b6417" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="start">Proof + Coverage</text>
+<text x="1476" y="696" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Written PoC: not_run</text>
+<text x="1476" y="723" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">Host decoding unresolved</text>
+<text x="1476" y="750" fill="#183044" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">No import call observed</text>
+<polyline points="353,740 370,740" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="370,740 358.47,746.00 358.47,734.00" fill="#536a78"/>
+<polyline points="785,740 802,740" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="802,740 790.47,746.00 790.47,734.00" fill="#536a78"/>
+<polyline points="1152,740 1169,740" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1169,740 1157.47,746.00 1157.47,734.00" fill="#536a78"/>
+<polyline points="1429,740 1446,740" fill="none" stroke="#536a78" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1446,740 1434.47,746.00 1434.47,734.00" fill="#536a78"/>
+</g>
+</svg>

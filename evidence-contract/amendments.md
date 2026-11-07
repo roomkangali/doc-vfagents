@@ -1,0 +1,5 @@
+# Checker study amendments
+
+The expected outcomes and VFA production checkers were unchanged across the runs. The first execution at 03:57 UTC matched 84 of 86 rows; two ELF/PE rows raised runner-side `StopIteration` before reaching a VFA gate. The fixture selector had compared an optional `component_id` field that differed between historical candidate and reviewer citations. The runner selector was corrected to match path, member, line, and original offset within the same target.
+
+The second execution at 03:58 UTC matched 86 of 86 expected outcomes. The selected third execution at 03:59 UTC also rehashed original anchor blobs and component bytes after the run, matched 86 of 86 outcomes, and recorded no canonical decision-state change. All three raw run records and checksums are retained outside this repository; the [public result matrix](evidence-contract-results.csv) represents the third run. The first two exceptions were harness setup failures, not acceptance or rejection by a VFA checker.

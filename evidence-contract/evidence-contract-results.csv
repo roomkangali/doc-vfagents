@@ -1,0 +1,87 @@
+case_id,family,control_finding,mutation,invariant,expected,checker_called,actual,reason_code,exception_type,decision_state_changed,matched_oracle
+EC-SOURCE-01,source,F1,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-SOURCE-02,source,F1,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-SOURCE-03,source,F1,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-SOURCE-04,source,F1,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-SOURCE-05,source,F1,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-SOURCE-06,source,F1,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-SOURCE-07,source,F1,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-SOURCE-08,source,F1,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-SOURCE-09,source,F1,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-SOURCE-10,source,F1,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-SOURCE-11,source,F1,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-SOURCE-12,source,F1,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-ASAR-01,asar,F1,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-ASAR-02,asar,F1,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-ASAR-03,asar,F1,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-ASAR-04,asar,F1,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-ASAR-05,asar,F1,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-ASAR-06,asar,F1,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-ASAR-07,asar,F1,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-ASAR-08,asar,F1,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-ASAR-09,asar,F1,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-ASAR-10,asar,F1,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-ASAR-11,asar,F1,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-ASAR-12,asar,F1,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-ELF-01,elf,F1,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-ELF-02,elf,F1,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-ELF-03,elf,F1,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-ELF-04,elf,F1,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-ELF-05,elf,F1,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-ELF-06,elf,F1,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-ELF-07,elf,F1,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-ELF-08,elf,F1,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-ELF-09,elf,F1,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-ELF-10,elf,F1,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-ELF-11,elf,F1,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-ELF-12,elf,F1,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-PE-01,pe,F2,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-PE-02,pe,F2,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-PE-03,pe,F2,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-PE-04,pe,F2,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-PE-05,pe,F2,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-PE-06,pe,F2,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-PE-07,pe,F2,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-PE-08,pe,F2,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-PE-09,pe,F2,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-PE-10,pe,F2,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-PE-11,pe,F2,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-PE-12,pe,F2,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-MANAGED-01,managed,F3,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-MANAGED-02,managed,F3,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-MANAGED-03,managed,F3,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-MANAGED-04,managed,F3,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-MANAGED-05,managed,F3,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-MANAGED-06,managed,F3,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-MANAGED-07,managed,F3,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-MANAGED-08,managed,F3,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-MANAGED-09,managed,F3,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-MANAGED-10,managed,F3,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-MANAGED-11,managed,F3,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-MANAGED-12,managed,F3,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-APK-01,apk,F1,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-APK-02,apk,F1,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-APK-03,apk,F1,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-APK-04,apk,F1,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-APK-05,apk,F1,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-APK-06,apk,F1,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-APK-07,apk,F1,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-APK-08,apk,F1,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-APK-09,apk,F1,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-APK-10,apk,F1,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-APK-11,apk,F1,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-APK-12,apk,F1,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-WASM-01,wasm,F1,valid_intake,I1 target identity,accepted,verify_target; Coordinator.verify_frozen,accepted,verified_target_identity,,false,true
+EC-WASM-02,wasm,F1,wrong_target_identity,I1 target identity,rejected,verify_target,rejected,target_digest_mismatch,TargetError,false,true
+EC-WASM-03,wasm,F1,valid_citation,I2 delivered citation + I3 original coordinate,accepted,vfa.citations.validate_citations,accepted,citation_valid,,false,true
+EC-WASM-04,wasm,F1,wrong_answer_target_digest,I2 answer target binding,rejected,vfa.citations.validate_citations,rejected,answer_target_mismatch,,false,true
+EC-WASM-05,wasm,F1,unknown_evidence_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,unknown_ref_not_granted,,false,true
+EC-WASM-06,wasm,F1,undelivered_foreign_ref,I2 role grant,rejected,vfa.citations.validate_citations,rejected,foreign_ref_not_granted,,false,true
+EC-WASM-07,wasm,F1,blob_tamper,I4 retained blob integrity,rejected,Coordinator.read_evidence,rejected,blob_digest_mismatch,ValueError,false,true
+EC-WASM-08,wasm,F1,out_of_range_coordinate,I3 original coordinate,rejected,vfa.citations.validate_citations,rejected,coordinate_out_of_range,,false,true
+EC-WASM-09,wasm,F1,foreign_target_granted,I2 target binding,rejected,vfa.citations.validate_citations,rejected,foreign_target_binding_mismatch,,false,true
+EC-WASM-10,wasm,F1,valid_static_gate,I5 static promotion,accepted,Coordinator._static_confirmation,accepted,static_path_gate_passed,,false,true
+EC-WASM-11,wasm,F1,missing_independent_reviewer,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,independent_review_missing,,false,true
+EC-WASM-12,wasm,F1,insufficient_shared_citations,I5 static promotion,rejected,Coordinator._static_confirmation,rejected,shared_locations_below_two,,false,true
+EC-SOURCE-13,source,F1,valid_but_semantically_nonproving,I3 coordinate validity vs semantic truth,accepted,vfa.citations.validate_citations,accepted,coordinate_valid_semantics_unassessed,,false,true
+EC-SOURCE-14,source,F1,semantic_truth_not_proved,I6 semantic limitation,gap,not applicable: semantic oracle absent,gap,semantic_oracle_absent,,false,true

@@ -1,0 +1,24 @@
+{
+  "schema": "vfa.paper.sanitized-export-projection.v1",
+  "not_original_vfa_export": true,
+  "family": "apk",
+  "case_id": "case_089cff4226314e44ae3c6c156193a13d",
+  "attempt_id": "attempt_d2efbf67195f4e08aa4d9868268c0061",
+  "export_revision": "6",
+  "selection_role": "primary",
+  "result_state": "complete",
+  "target_set_sha256": "6f30918590afa8a9e4eaf7d7d79e5d2f1322447ce9a280beb892f515534b2e52",
+  "original_report_json_sha256": "d14894ed0284e48fbe8e4581957b719869bc00b48d87d3cd860ccffb9cdfd58d",
+  "complete_report_at": "2026-11-06T07:20:46.917509+00:00",
+  "partial_export_bound_at": "not recorded",
+  "finding_entries_in_author_audit": 5,
+  "author_path_groups": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05"
+  ],
+  "runtime_execution": "not_performed",
+  "poc_state": "not_run"
+}
