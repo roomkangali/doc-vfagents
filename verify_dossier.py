@@ -32,11 +32,14 @@ def main() -> int:
         except ValueError as error:
             errors.append(f"SHA256SUMS line {number}: {error}")
 
-    actual = {
-        path.relative_to(root)
-        for path in root.rglob("*")
-        if path.is_file() and path != manifest
-    }
+    actual: set[Path] = set()
+    for path in root.rglob("*"):
+        if not path.is_file() or path == manifest:
+            continue
+        relative = path.relative_to(root)
+        if relative.parts[0] == ".git":
+            continue
+        actual.add(relative)
     for path in sorted(expected.keys() - actual):
         errors.append(f"missing file: {path}")
     for path in sorted(actual - expected.keys()):
